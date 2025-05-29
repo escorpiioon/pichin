@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Para Ti ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(-45deg, #fcd5ce, #ffc8dd, #cdb4db, #b5ead7);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.85);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.15);
+      max-width: 600px;
+      animation: fadeIn 2s ease;
+      backdrop-filter: blur(5px);
+    }
+
+    .foto {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #d6336c;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .heart {
+      font-size: 40px;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+
+    @media (max-width: 600px) {
+      .container { padding: 20px; }
+      p { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="foto.jpg" alt="Nosotros" class="foto">
+    <div class="heart">❤️</div>
+    <h1>Para ti, amor mío</h1>
+    <p>
+      Sé que hay días en los que todo parece cuesta arriba, donde el cansancio pesa y las dudas aparecen.  
+      Pero quiero que sepas que estoy aquí, a tu lado, siempre.<br><br>
+      Eres fuerte, valiente y capaz de todo lo que te propongas.  
+      No dejes que los miedos opaquen la luz tan bonita que llevas dentro.<br><br>
+      Estoy tan orgullosa de ti, de todo lo que eres y todo lo que estás construyendo.  
+      Y aunque a veces no te lo diga a menudo:  
+      <strong>¡Lo estás haciendo increíble!</strong><br><br>
+      Sigue adelante, amor. Te amo con todo mi corazón.  
+    </p>
+  </div>
+</body>
+</html>
+
